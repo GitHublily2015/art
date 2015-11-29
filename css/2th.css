@@ -1,0 +1,432 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul,ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 52px;
+    background: #f5f5f5;
+}
+header .class1,#section1,#section2,#picLogo,#main,footer {
+    width: 93.7%;
+    /*max-width: 1264px;*/
+}
+header .class1{
+    height: 100%;
+    background: #ef231c;
+    margin: auto;
+    text-align: center;
+}
+header .class1 span {
+    display: inline-block;
+    width: 44px;
+    height: 17px;
+    background-image: url(../img/images/1.png);
+    background-position: -6px 0;
+}
+
+#section1{
+    margin: auto;
+    position: relative;
+}
+#section1 span#firstPage {
+    width: 39px;
+    height: 57px;
+    position: absolute;
+    top:45px;
+    left: -39px;
+    background-image: url(../img/images/1.png);
+    background-position: 0 -29px;
+    background-repeat: no-repeat;
+}
+/*ºìÉ«±³¾°*/
+#section1 .head{
+width: 100%;
+height: 113px;
+margin:auto;
+background: #f8261e;
+}
+#section1 .head>div#logo {
+    float: left;
+    width: 420px;
+}
+#section1 .head span{
+    float: left;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+}
+#section1 .head #bird{
+    width: 70px;
+    height: 107px;
+    background-position: -114px 0;
+    margin-top:  16px;
+    margin-left: 102px;
+}
+#section1 .head #little{
+    width: 219px;
+    height: 17px;
+    margin-top: 44px;
+    margin-left: 23px;
+    background-position: -6px -129px;
+}
+#section1 .head #big {
+    float: left;
+    width: 145px;
+    height: 43px;
+    margin-top: 5px;
+    margin-left: 23px;
+    background-position: -20px -227px;
+}
+
+#section1 #searchDiv {
+    float: right;
+    background-color: #373737;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#section1 #search {
+    float: left;
+    width: 205px;
+    height: 27px;
+    background-color: #373737;
+    border: none;
+    margin-left: 5px;
+}
+#section1 #searchDiv #mirror {
+    float: right;
+    width: 15px;
+    height: 16px;
+    background-color: #373737;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position: -70px -37px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#section1 .head #nav {
+    float: right;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position:0 -290px;
+    /*width: 486px;*/
+    height: 81px;
+    margin-top: 15px;
+    /*margin-right: 300px;*/
+}
+#section1 .head #nav ul {
+    float: left;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+#section1 .head #nav ul>li {
+    float: left;
+    margin-right: 87px;
+}
+#section1 .head #nav ul>li:last-child {
+    margin-right: 0px;
+}
+#section1 .head #nav ul>li a {
+    color: rgb(114,113,113);
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 16px;
+    font-weight: bold;
+}
+#section1 .head #nav ol {
+    float: right;
+    margin-left: 50px;
+}
+#section1 .head #nav ol>li {
+    float: left;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position: -12px -158px;
+    width: 83px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 9px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+#section1 .head #nav ol>li>a {
+    font-size: 12px;
+    color: rgb(114,113,113);
+    font-weight: bold;
+}
+#section1 .head #nav ol>li>.sale {
+    position: absolute;
+    top: 40px;
+    width: 83px;
+    height: 41px;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position: -114px -158px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+}
+#section1 .head #login {
+    float: left;
+    margin-left: 200px;
+}
+#section1 .head #login input {
+    background: #5a5757;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 0px;
+    height: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    font-size: 12px;
+    font-weight: bold;
+}
+#section1 .head #login>input {
+    width: 80px;
+}
+#section1 .head #login>div {
+    display: inline-block;
+    background: #5a5757;
+    border-radius: 3px;
+    width: 90px;
+    text-align: center;
+}
+
+#section2 {
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+#section2 img {
+    width: 100%;
+}
+#section2 div {
+    position: absolute;
+}
+#section2 .left {
+    width: 177px;
+    height: 43px;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position:-309px -215px;
+    top: 310px;
+    left: -20px;
+    line-height: 43px;
+    padding-left: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+#section2>div>a {
+    color: #fff;
+}
+#section2 .top,#section2 .bottom {
+    width: 56px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #878788;
+    /*left: 1235px;*/
+    right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:15px;
+    position: fixed;
+}
+#section2 .top {
+    top: 380px;
+}
+#section2 .bottom {
+    top: 465px;
+}
+#picLogo {
+    height: 110px;
+    position: relative;
+    margin-top: 50px;
+    line-height: 110px;
+}
+#picLogo hr {
+    float: left;
+    width: 100%;
+    height: 2px;
+    border: none;
+    margin-left: 42px;
+    border-top: 2px solid #585656;
+    margin-top: 56px;
+}
+#picLogo div {
+    position: absolute;
+    width: 100%;
+}
+#picLogo #div1 {
+    height: 86px;
+    text-align: center;
+    background-color: transparent;
+}
+#picLogo #div1>img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#picLogo #div2 {
+    text-align: center;
+    top: 50px;
+    font-size: 20px;
+    font-family: HeiveticaNeue,Ultralight;
+    color: #b0b0b0;
+}
+
+#main {
+    width: 93.7%;
+    margin: auto;
+    display: block;
+}
+#main div {
+    float: left;
+    position: relative;
+}
+#main ul {
+    float: left;
+    width: 160px;
+    height: 957px;
+    background: #f4f4f4;
+    padding-top: 50px;
+}
+#main ul>li {
+    height: 30px;
+}
+#main ul>li a {
+    display: block;
+    height: 30px;
+    width: 135px;
+    padding-left: 25px;
+    line-height: 30px;
+    color: #5a5a5a;
+}
+#main ul>li a:hover {
+    background: #fff;
+}
+#main div #purple {
+    position: absolute;
+    top: 920px;
+    left: 3px;
+    float: left;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position:-346px -423px;
+    width: 154px;
+    height: 75px;
+}
+#main ol {
+    float: right;
+    width: 910px;
+    margin-right: 100px;
+}
+#main ol>li {
+    float: left;
+    width: 270px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 40px;
+    border-right: 2px solid #585656;
+}
+#main ol>li:nth-child(3n+3) {
+    border: none;
+}
+dd {
+    margin: 0px;
+    margin-top: 10px;
+    word-break: break-all;
+    color: #939393;
+}
+dl {
+    margin: 0px;
+}
+dd>a {
+    float: right;
+    color: #939393;
+}
+dd>span {
+    float: right;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/images/1.png);
+    background-repeat: no-repeat;
+    background-position: -69px -4px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+footer {
+    /*width: 93.7%;*/
+    clear: both;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+footer>ul {
+    float: left;
+    margin-bottom: 30px;
+}
+footer ul li {
+    float: left;
+    width: 115px;
+    height: 27px;
+    background: #585656;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 27px;
+}
+footer ul li>a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer>div {
+    float: left;
+    width: 100%;
+    height: 52px;
+    background-image: url(../img/bottom.jpg);
+    position: relative;
+    /*background-position: 100px 0px;*/
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+footer>div>p {
+    color : #fff;
+    float: right;
+    margin-right: 350px;
+}
+footer>div>span {
+    width: 197px;
+    height: 197px;
+    background-image: url(../img/ewm.jpg);
+    position: absolute;
+    top: -72px;
+    left: 960px;
+}
+footer>p {
+    float: left;
+    font-weight: bold;
+    color: #9c9c9c;
+}
+footer>p>a {
+    color: #898989;
+    font-weight: normal;
+}
+
+@media screen and (max-width:1208px) and (min-width:788px) {
+    #section1 .head #nav {
+        width: 62.3%;
+    }
+    #section1 .head #logo {
+        width: 33.2%;
+    }
+}
